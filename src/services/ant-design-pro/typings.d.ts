@@ -98,4 +98,18 @@ declare namespace API {
     description?: string;
     type?: NoticeIconItemType;
   };
+
+  type UserRaffleOrderItem = {
+    id?: string;
+    userId?: string;
+    activityId?: string;
+    activityName?: string;
+    strategyId?: string;
+    orderId?: string;
+    orderTime?: string;
+    orderState?: string;
+    createTime?: string;
+    updateTime?: string;
+  };
+
 }

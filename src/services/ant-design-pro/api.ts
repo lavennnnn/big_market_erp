@@ -92,3 +92,12 @@ export async function removeRule(options?: { [key: string]: any }) {
     }
   });
 }
+
+/**
+ * 抽奖订单
+ */
+export async function userRaffleOrder() {
+  return request<API.UserRaffleOrderItem>('/api/queryUserRaffleOrderList', {
+    method: 'GET',
+  });
+}

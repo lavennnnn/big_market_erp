@@ -60,4 +60,10 @@ export default [
     layout: false,
     component: './404',
   },
+  {
+    name: '抽奖订单',
+    icon: 'table',
+    path: '/user_raffle_order_list',
+    component: './UserRaffleOrder',
+  },
 ];

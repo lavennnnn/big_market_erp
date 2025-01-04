@@ -321,4 +321,29 @@ module.exports = {
     type: 'account',
     currentAuthority: 'admin',
   },
+
+  'GET /api/queryUserRaffleOrderList': {
+    data: [
+      {
+        key: 1,
+        userId: 'xiaofuge',
+        activityId: '100301',
+        activityName: '测试活动',
+        strategyId: '100006',
+        orderId: '240699246294',
+        orderTime: '2024-09-06T05:00:57.040Z',
+        orderState: '完成',
+      },
+      {
+        key: 2,
+        userId: 'xiaofuge',
+        activityId: '100301',
+        activityName: '测试活动',
+        strategyId: '100006',
+        orderId: '298101180210',
+        orderTime: '2024-09-06T07:00:57.040Z',
+        orderState: '完成',
+      },
+    ]
+  }
 };
